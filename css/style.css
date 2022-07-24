@@ -1,0 +1,113 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ */
+
+
+h1 {
+    height: 200px;
+}
+
+.main {
+    height: 400px;
+    width: 25%;
+}
+
+.input-data {
+    display: block;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgb(178, 178, 226);
+    border: hidden;
+}
+
+.clear-btn {
+    width: 150px;
+}
+
+.c-btn {
+    width: 50px;
+}
+
+.div-btn {
+    width: 50px;
+}
+
+.zero-btn {
+    width: 50px;
+}
+
+.one-btn {
+    width: 50px;
+}
+
+.two-btn {
+    width: 50px;
+}
+
+.plus-btn {
+    width: 50px;
+}
+
+
+.three-btn {
+    width: 50px;
+}
+
+.four-btn {
+    width: 50px;
+}
+
+.five-btn {
+    width: 50px;
+}
+
+.minus-btn {
+    width: 50px;
+    background-color: rgb(227, 163, 231) !important;
+    color: black !important;
+    border: none !important;
+
+}
+
+.six-btn {
+    width: 50px;
+}
+
+
+.seven-btn {
+    width: 50px;
+}
+
+.eight-btn {
+    width: 50px;
+}
+
+.dot-btn {
+    width: 50px;
+}
+
+
+
+.nine-btn {
+    width: 50px;
+}
+
+.asterisk-btn {
+    width: 50px;
+    background-color: rgb(174, 238, 216) !important;
+    border: none !important;
+}
+
+.equal-btn {
+    width: 50px;
+}
+
+.percent-btn {
+    width: 50px;
+    background-color: rgb(231, 162, 124) !important;
+    border: none !important;
+}

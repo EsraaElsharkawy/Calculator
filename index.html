@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Basic Calculator</title>
+</head>
+
+<body>
+
+    <h1 class="d-flex justify-content-center align-items-center">Basic Calculator</h1>
+
+    <div class="main container-fluid d-flex flex-column justify-content-center align-items-start">
+        <input class="input-data mb-2" type="text">
+        <div>
+            <button type="button" id="clear" class="clear-btn btn btn-danger mb-2">Clear</button>
+            <button type="button" id="delete" class="c-btn btn btn-dark mb-2">C</button>
+
+        </div>
+        <div>
+            <button type="button" class="calc zero-btn btn btn-dark mb-2" value="0">0</button>
+            <button type="button" class="calc one-btn btn btn-dark mb-2" value="1">1</button>
+            <button type="button" class="calc two-btn btn btn-dark mb-2" value="2">2</button>
+            <button type="button" class="calc plus-btn btn btn-warning mb-2" value="+">+</button>
+        </div>
+        <div>
+            <button type="button" class="calc three-btn btn btn-dark mb-2" value="3">3</button>
+            <button type="button" class="calc four-btn btn btn-dark mb-2" value="4">4</button>
+            <button type="button" class="calc five-btn btn btn-dark mb-2" value="5">5</button>
+            <button type="button" class="calc minus-btn btn btn-danger mb-2" value="-">-</button>
+        </div>
+        <div>
+            <button type="button" class="calc six-btn btn btn-dark mb-2" value="6">6</button>
+            <button type="button" class="calc seven-btn btn btn-dark mb-2" value="7">7</button>
+            <button type="button" class="calc eight-btn btn btn-dark mb-2" value="8">8</button>
+            <button type="button" class="calc asterisk-btn btn btn-success mb-2" value="*">*</button>
+
+        </div>
+        <div>
+            <button type="button" class="calc nine-btn btn btn-dark mb-2" value="9">9</button>
+            <button type="button" class="calc dot-btn btn btn-dark mb-2" value=".">.</button>
+            <button type="button" id="result" class="equal-btn btn btn-dark mb-2" value="=">=</button>
+            <button type="button" class="calc div-btn btn btn-success mb-2" value="/">/</button>
+
+        </div>
+    </div>
+
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
