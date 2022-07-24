@@ -33,6 +33,7 @@ myResult.addEventListener('click', () => {
     }
     else {
         myInput.value = eval(myInput.value)
+        myInputValues = [myInput.value]
     }
 })
 //
