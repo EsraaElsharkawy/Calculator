@@ -32,7 +32,7 @@ myResult.addEventListener('click', () => {
         myInput.value = ''
     }
     else {
-        myInput.value = myInput.value + " = " + eval(myInput.value)
+        myInput.value = eval(myInput.value)
     }
 })
 //
